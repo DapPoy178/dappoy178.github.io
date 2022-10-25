@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin: 0 !important;
+}
+
+.mx-auto{
+    width: 500px;
+}
+
+.tasks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    min-height: 40px;
+}
+
+.btn-act i{
+    cursor: pointer;
+}
+
+.tasks.completed p {
+    text-decoration: line-through;
+}
